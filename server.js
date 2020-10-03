@@ -18,6 +18,7 @@ app.get('/', (req,res) => {res.send("This is the shoppingify server")})
 
 //? Routes
 app.use('/api/auth',require('./routes/auth'))
+app.use('/api/category',require('./routes/category'))
 
 
 

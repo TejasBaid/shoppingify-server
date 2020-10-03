@@ -34,7 +34,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601724818482</updated>
-      <workItem from="1601724822102" duration="3748000" />
+      <workItem from="1601724822102" duration="6703000" />
     </task>
     <servers />
   </component>
@@ -46,22 +46,28 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="372" y="116" key="#JavaScript/0.0.1280.800@0.0.1280.800" timestamp="1601727928500" />
-    <state x="0" y="33" key="#Live_Templates" timestamp="1601725230445">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="0" y="45" key="#Live_Templates" timestamp="1601733736489">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="33" key="#Live_Templates/0.0.1280.800@0.0.1280.800" timestamp="1601725230445" />
+    <state x="0" y="45" key="#Live_Templates/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601733736489" />
+    <state x="697" y="364" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1601733733648">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="697" y="364" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601733733648" />
     <state x="390" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601725579643">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="390" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1601725579643" />
-    <state x="149" y="39" key="SettingsEditor" timestamp="1601725251155">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="224" y="53" key="SettingsEditor" timestamp="1601733303961">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1601725251155" />
-    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup" timestamp="1601728620932">
+    <state x="224" y="53" key="SettingsEditor/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601733303961" />
+    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup" timestamp="1601733698799">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1601725243289" />
-    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601728620932" />
+    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601733698799" />
   </component>
 </project>

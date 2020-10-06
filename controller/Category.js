@@ -47,6 +47,7 @@ const getCategories = async (userId) => {
             json:categories
         }
     } catch (err) {
+        console.error(err)
         return {
             status:500,
             json:"Server Error"
@@ -69,6 +70,7 @@ const deleteCategory = async (categoryId) => {
             }
         }
     } catch (err) {
+        console.error(err)
         return {
             status:500,
             json:"Server Error"

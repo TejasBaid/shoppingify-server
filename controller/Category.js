@@ -1,5 +1,6 @@
 const Category = require('../models/Category')
 
+
 const categoryDuplicateCheck = async (name,userId) => {
     try {
         const duplicate = await Category.findOne({name: name, userId: userId})
@@ -38,5 +39,49 @@ const duplicationError = () => {
         json:"Category already exists"
     }
 }
+const getCategories = async (userId) => {
+    try {
+        const categories = await Category.find({userId:userId})
+        return {
+            status:200,
+            json:categories
+        }
+    } catch (err) {
+        return {
+            status:500,
+            json:"Server Error"
+        }
+    }
+}
 
-module.exports = {createCategory, categoryDuplicateCheck,duplicationError}
+const deleteCategory = async (categoryId) => {
+    try {
+        const deletedCategory = await Category.deleteOne({_id:categoryId})
+        if(deletedCategory.deletedCount === 1){
+            return {
+                status:200,
+                json:"Category deleted"
+            }
+        }else{
+            return {
+                status:400,
+                json:"Category does not exist"
+            }
+        }
+    } catch (err) {
+        return {
+            status:500,
+            json:"Server Error"
+        }
+    }
+}
+
+
+
+module.exports = {
+    createCategory,
+    categoryDuplicateCheck,
+    duplicationError,
+    getCategories,
+    deleteCategory
+}

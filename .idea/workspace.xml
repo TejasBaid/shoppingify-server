@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43518e6a-dc2e-434d-b994-b8e693520a20" name="Default Changelist" comment="" />
+    <list default="true" id="43518e6a-dc2e-434d-b994-b8e693520a20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/category.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iMkOLFy0n9CCBYeaIgkdzklnuS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -34,7 +43,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601724818482</updated>
-      <workItem from="1601724822102" duration="6703000" />
+      <workItem from="1601724822102" duration="7013000" />
+      <workItem from="1601965802388" duration="2023000" />
     </task>
     <servers />
   </component>
@@ -55,19 +65,27 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="697" y="364" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601733733648" />
+    <state x="1043" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601966018534">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1043" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601966018534" />
     <state x="390" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601725579643">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="390" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1601725579643" />
+    <state width="221" height="457" key="HiddenNamespacesPopup" timestamp="1601966026679">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="221" height="457" key="HiddenNamespacesPopup/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601966026679" />
     <state x="224" y="53" key="SettingsEditor" timestamp="1601733303961">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1601725251155" />
     <state x="224" y="53" key="SettingsEditor/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601733303961" />
-    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup" timestamp="1601733698799">
+    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup" timestamp="1601966463204">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1601725243289" />
-    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601733698799" />
+    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601966463204" />
   </component>
 </project>

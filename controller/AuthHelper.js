@@ -1,5 +1,6 @@
 const bcrypt = require('bcryptjs')
 const User = require('../models/User')
+const {createList} = require('../controller/List')
 const jwt = require('jsonwebtoken')
 const dotenv = require('dotenv').config()
 
@@ -29,6 +30,8 @@ const Signup = async(name,email,password) => {
                 process.env.JWT_SECRET,
                 {expiresIn:360000},
             )
+            const decoded = jwt.verify(token,process.env.JWT_SECRET)
+            await createList(decoded.user.id)
             return {
                 status:200,
                 json: token

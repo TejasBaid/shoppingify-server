@@ -23,10 +23,11 @@ router.post(
     async (req, res) => {
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
-            return res.status(400).json({ msg: errors.array() });
+            return res.status(400).json({ msg: errors});
         }
         const { name, email, password } = req.body;
         const response = await Signup(name,email,password)
+
         res.status(response.status).json({msg:response.json})
 
 })
@@ -44,7 +45,7 @@ router.post('/login',[
 ],async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-        return res.status(400).json({ msg: errors.array() });
+        return res.status(400).json({ msg: errors });
     }
     const { name, email, password } = req.body;
     const response = await Login(email,password)

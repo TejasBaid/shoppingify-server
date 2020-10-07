@@ -24,9 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="43518e6a-dc2e-434d-b994-b8e693520a20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/AuthHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/AuthHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +53,11 @@
     <property name="DatabaseDriversLRU" value="mongo" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="database.data.extractors.current.export.id" value="JSON-Groovy.json.groovy" />
     <property name="database.data.extractors.current.id" value="JSON-Groovy.json.groovy" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,7 +77,9 @@
       <updated>1601724818482</updated>
       <workItem from="1601724822102" duration="7013000" />
       <workItem from="1601965802388" duration="4685000" />
-      <workItem from="1601980310044" duration="3889000" />
+      <workItem from="1601980310044" duration="4118000" />
+      <workItem from="1602069942367" duration="222000" />
+      <workItem from="1602070201611" duration="3007000" />
     </task>
     <servers />
   </component>
@@ -105,10 +108,10 @@
     </state>
     <state x="0" y="33" key="#Live_Templates/0.0.1280.800@0.0.1280.800" timestamp="1601725230445" />
     <state x="0" y="45" key="#Live_Templates/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601733736489" />
-    <state x="697" y="364" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1601733733648">
+    <state x="1311" y="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1602070926255">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="697" y="364" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601733733648" />
+    <state x="1311" y="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1602070926255" />
     <state x="1043" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601966018534">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -138,19 +141,27 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="221" height="457" key="HiddenNamespacesPopup/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601966026679" />
-    <state x="224" y="53" key="SettingsEditor" timestamp="1601982033913">
+    <state x="742" y="162" key="SettingsEditor" timestamp="1602071460663">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1601725251155" />
-    <state x="224" y="53" key="SettingsEditor/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601982033913" />
+    <state x="742" y="162" key="SettingsEditor/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1602071460663" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1601970516968">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601970516968" />
-    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup" timestamp="1601969661377">
+    <state x="667" y="295" width="586" height="490" key="find.popup" timestamp="1602073282617">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="667" y="295" width="586" height="490" key="find.popup/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1602073282617" />
+    <state x="625" y="255" key="run.anything.popup" timestamp="1602071976506">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="255" key="run.anything.popup/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1602071976506" />
+    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup" timestamp="1602072965199">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1601725243289" />
-    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601969661377" />
+    <state x="458" y="167" width="1005" height="913" key="search.everywhere.popup/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1602072965199" />
   </component>
 </project>

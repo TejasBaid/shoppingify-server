@@ -24,9 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="43518e6a-dc2e-434d-b994-b8e693520a20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/AuthHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/AuthHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,8 @@
       <workItem from="1601965802388" duration="4685000" />
       <workItem from="1601980310044" duration="4118000" />
       <workItem from="1602069942367" duration="222000" />
-      <workItem from="1602070201611" duration="3007000" />
+      <workItem from="1602070201611" duration="3244000" />
+      <workItem from="1602135265602" duration="6000" />
     </task>
     <servers />
   </component>
@@ -121,22 +119,22 @@
     </state>
     <state x="390" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1601725579643" />
     <state x="585" y="282" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601969287422" />
-    <state width="1294" height="220" key="GridCell.Tab.0.bottom" timestamp="1601982158287">
+    <state width="1294" height="220" key="GridCell.Tab.0.bottom" timestamp="1602073484871">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601982158287" />
-    <state width="1294" height="220" key="GridCell.Tab.0.center" timestamp="1601982158283">
+    <state width="1294" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1602073484871" />
+    <state width="1294" height="220" key="GridCell.Tab.0.center" timestamp="1602073484869">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="220" key="GridCell.Tab.0.center/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601982158283" />
-    <state width="1294" height="220" key="GridCell.Tab.0.left" timestamp="1601982158282">
+    <state width="1294" height="220" key="GridCell.Tab.0.center/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1602073484869" />
+    <state width="1294" height="220" key="GridCell.Tab.0.left" timestamp="1602073484867">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="220" key="GridCell.Tab.0.left/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601982158282" />
-    <state width="1294" height="220" key="GridCell.Tab.0.right" timestamp="1601982158284">
+    <state width="1294" height="220" key="GridCell.Tab.0.left/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1602073484867" />
+    <state width="1294" height="220" key="GridCell.Tab.0.right" timestamp="1602073484870">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="220" key="GridCell.Tab.0.right/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1601982158284" />
+    <state width="1294" height="220" key="GridCell.Tab.0.right/0.0.1920.1080/1920.460.1280.800@0.0.1920.1080" timestamp="1602073484870" />
     <state width="221" height="457" key="HiddenNamespacesPopup" timestamp="1601966026679">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

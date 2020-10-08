@@ -6,7 +6,7 @@ const cors = require('cors')
 const PORT = process.env.PORT || 5000
 
 //* Config
-cors()
+app.use(cors())
 app.use(express.json())
 app.listen(PORT, () => console.log(`Shoppingify server running on port ${PORT}`.black.bgBlue.bold))
 db()

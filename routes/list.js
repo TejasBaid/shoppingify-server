@@ -25,4 +25,19 @@ router.post('/add',[auth,
 
 })
 
+/* ----------------------------- View list items ---------------------------- */
+//* @route   GET /api/list/view
+//* @desc    View all list items
+//* @access  PRIVATE
+
+router.get('/view',auth,async (req,res) => {
+    try {
+        const list = await List.findOne({userId: req.user.id})
+        return res.status(200).json({msg:list})
+    } catch (err) {
+        console.error(err)
+        return res.status(500).json({msg:"Server Error"})
+    }
+})
+
 module.exports = router

@@ -7,10 +7,10 @@ const {jwtSecret} = require('../../../marketplace_api/config/config')
 const User = require('../models/User')
 const { check, validationResult } = require("express-validator");
 
-/* ------------------------------ Signup Route ------------------------------ */
+/* ------------------------------ Auth Route ------------------------------ */
 
 //* @route   POST /api/auth/signup
-//* @desc    This is the signup page
+//* @desc    This is the auth page
 //* @access  PUBLIC
 
 router.post(
@@ -21,6 +21,7 @@ router.post(
       check('password','Please enter a password with 6 or more characters').isLength({ min: 6 }),
     ],
     async (req, res) => {
+        console.log("Signuppppp")
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             return res.status(400).json({ msg: errors});

@@ -21,7 +21,8 @@ const addItem = async(name,userId,itemId) => {
         const list = await List.findOne({userId: userId})
         list.items.push({
             _id: itemId,
-            name: name
+            name: name,
+            quantity:1,
         })
         await list.save()
         return {
